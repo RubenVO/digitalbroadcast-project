@@ -10,5 +10,9 @@ package hellotvxlet;
  * @author student
  */
 public class Observer implements ObserverInterface{
-  
+    
+    public void update(int index){
+        System.out.println(index);
+    }
+
 }
