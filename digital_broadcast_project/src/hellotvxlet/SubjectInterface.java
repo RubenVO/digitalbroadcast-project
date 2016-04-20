@@ -10,5 +10,6 @@ package hellotvxlet;
  * @author student
  */
 public interface SubjectInterface {
-    
+    void register(ObserverInterface ob);
+    void unregister(ObserverInterface ob);
 }
