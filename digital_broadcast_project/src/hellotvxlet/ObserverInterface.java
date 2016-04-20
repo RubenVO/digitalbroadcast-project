@@ -10,5 +10,5 @@ package hellotvxlet;
  * @author student
  */
 public interface ObserverInterface {
-    
+    void update(int index);
 }
